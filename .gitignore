@@ -1,0 +1,49 @@
+# --- General System Junk ---
+.DS_Store
+Thumbs.db
+*.log
+tmp/
+temp/
+
+# --- Security (NEVER commit these) ---
+.env
+config.php
+secrets.txt
+id_rsa
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+pip-log.txt
+
+# --- JavaScript / Node ---
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# --- PHP ---
+/vendor/
+composer.phar
+.phpunit.result.cache
+
+# --- C / C++ ---
+# Object files
+*.o
+*.obj
+
+# Executables (so you don't commit the compiled programs)
+*.exe
+*.out
+*.app
+bin/
+build/
+
+# --- Shell / Editor ---
+.bash_history
+.vscode/
+.idea/
+*.swp
